@@ -1,5 +1,6 @@
 import time
 import random
+import os
 a = random.randint (1,4)
 b = random.randint (1,3)
 bc = random.randint (1,4)
@@ -59,6 +60,7 @@ if (health <= 3):
     health = 0
     xp = xp + a + b
     print("You gained "+ str(xp) + " xp")
+    os.system("python3 razorCastle.py")
 else:
     print("You lose")
     exit(0)
