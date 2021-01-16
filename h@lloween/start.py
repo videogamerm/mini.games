@@ -26,7 +26,7 @@ while not start  == 'y':
             time.sleep(2)
             while not start2  == 'y':
                 start2 = input("The letter reads 'Dear " + name + """,
-                The Duke of Raptorcity requests to meet with you at 6:00 P.M. at Razor castle for Important matters.
+                The Duke of Raptorcity requests to meet with you tomorrow  at 6:00 P.M. at Razor castle for Important matters.
                 -The Duke of Raptorcity's Messenger'
                 King:Should you go to Razor castle? (y/n)""")
                 time.sleep(2)
@@ -35,6 +35,7 @@ while not start  == 'y':
                 input("Start Journey? (y/n)")
                 if start3  == 'y':
                     time.sleep(2)
+                    print("On the way the soldier gets attacked by killer ants and goes back")
                     os.system("python3 aTTACK.py")
 
                 if start2 == 'n':
