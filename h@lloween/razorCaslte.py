@@ -29,3 +29,5 @@ while not start1 == 'y' :
                 print("YAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!! You Have Fallen To your Death")
                 exit(0)
             start3 = input("You find a forest with a creepy sign on it." + "It Reads: Enter if you dare!! It Leads To Javelin Island Prison.GO in (y/N)")
+            print("You easliy overpower the gaurds and atke the princess back")
+            exit("You Win")
