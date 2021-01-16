@@ -1,5 +1,6 @@
 import time
 import random
+import os
 start = ''
 start1 =''
 om =''
@@ -34,8 +35,9 @@ while not start  == 'y':
                 input("Start Journey? (y/n)")
                 if start3  == 'y':
                     time.sleep(2)
+                    os.system("python3 aTTACK.py")
 
                 if start2 == 'n':
                     print("Messenger:Okay," + name + """I will tell the Duke.(Leaves Room)
                     {(The Duke of Raptorcity has gotten mad and sent assasins to kill you)YOU LOSE}""")
-                    exit(0)
+                    exit("OOF!")
