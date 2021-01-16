@@ -1,0 +1,1 @@
+Get ruby then gte python3 then run the ps1 or sh file for you computer!!
